@@ -1,0 +1,6 @@
+GET http://localhost:3000/api/2fa/generate
+###
+GET http://localhost:3000/api/2fa/qrcode
+###
+GET http://localhost:3000/api/2fa/verify?secret=hello&token=hihi
+
